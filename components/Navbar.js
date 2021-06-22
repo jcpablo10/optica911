@@ -1,27 +1,38 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Navbar = () => {
     return (
         <nav>
             <div className="nav__container">
-                <img className="nav__logo" src="/logo_optica911.png" />
+                <Link href="./">
+                    <a>
+                        <img className="nav__logo" src="/logo_optica911.png" />
+                    </a>
+                </Link>
             </div>
             <div className="nav__container">
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <a className="nav__link">
-                            Productos
-                        </a>
+                        <Link href="/productos">
+                            <a className="nav__link">
+                                Productos
+                            </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a className="nav__link">
-                            Servicios
-                        </a>
+                        <Link href="/servicios">
+                            <a className="nav__link">
+                                Servicios
+                            </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
-                        <a className="nav__link">
-                            Pymes
-                        </a>
+                        <Link href="/pymes">
+                            <a className="nav__link">
+                                Pymes
+                            </a>
+                        </Link>
                     </li>
                     <li className="nav__item">
                         <a className="nav__link">
