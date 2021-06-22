@@ -1,0 +1,13 @@
+.section {
+    width: 100%;
+}
+.section__background {
+    width: 100%;
+}
+.section__background--blue {
+    background-color: $secondary-color;
+}
+.section__content {
+    width: 100%;
+    margin: 0 auto;
+}

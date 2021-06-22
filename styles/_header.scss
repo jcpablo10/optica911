@@ -1,0 +1,27 @@
+.header {
+    padding-top: $navbar_height;
+}
+.header__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // height: 100vh;
+}
+.header__item:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: flex-start;
+    padding-left: 15%;
+}
+.header__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.header__title {
+    color: $primary-white;
+    text-transform: uppercase;
+}
+.header__subtitle {
+    color: $primary-white;
+}

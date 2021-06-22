@@ -1,0 +1,10 @@
+.button__primary {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+.button__primary--red {
+    background-color: $primary-color;
+    color: $primary-white;
+    padding: 1em 2em;
+    border-radius: 10px;
+}

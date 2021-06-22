@@ -1,0 +1,19 @@
+{
+  "name": "optica",
+  "version": "1.0.0",
+  "description": "Website of Optica 911",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "@maniatikorn",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.2.3",
+    "node-sass": "^4.14.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
